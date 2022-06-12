@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <div class="details">
+          <div class="track-art">
+          </div>
+          <div class="track-name">Track Name</div>
+          
+        </div>
+        <div class="buttons">
+          <div class="prev" >
+            <i class="ri-skip-back-fill"></i>
+          </div>
+          <div class="playpause" >
+            <i class="ri-play-circle-fill"></i>
+          </div>
+          <!-- <div class="pause">
+            <i class="fa-solid fa-circle-pause"></i>
+          </div> -->
+          <div class="next" >
+            <i class="ri-skip-forward-fill"></i>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="currenttime">00:00</div>
+          <input type="range" min="1" max="100"
+            value="0" class="seek-slider">
+          <div class="totaltime">00:00</div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
